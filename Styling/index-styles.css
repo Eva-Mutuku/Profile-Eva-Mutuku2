@@ -1,0 +1,101 @@
+/* Style the header with lightest brown colour, move the links to the right */
+
+.navigation{
+  background-color: rgb(133, 114, 83);
+  height: 80px;
+  animation-name: nava;
+  animation-duration: 10s;
+}
+@keyframes nava {
+  0%{background-color:red;}
+   50%{background-color:yellow;}  
+}
+.navigation ul{
+  float: right;
+  margin-right: 50px;
+}
+.navigation ul li{
+  list-style-type: none;
+  font-size: 20px;
+  display: inline-block;
+  padding:5px;
+  margin: 5px;
+}
+.navigation ul li a{
+  text-decoration: none;
+}
+.navigation ul li a:hover{
+  text-decoration: underline;
+  color: rgb(110, 17, 17);
+ 
+}
+#body_content{
+  box-sizing: border-box;
+  height:600px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(240, 213, 169);
+  width:25%;
+  margin-left: 4%;
+  margin-right: 5%; 
+}
+#body_content img{
+  margin: 0 auto;
+  margin-top:10px;
+}
+.image-circle img {
+  border-radius: 50%;
+  float: left;
+  height: 200px;
+  width: 200px; 
+}
+@media screen and (max-width:1000px){
+  .column {
+    width:100%;
+  }
+  .image-circle{
+    display: none;
+  }
+}
+.Me p{
+  line-height: 150%;
+  font-style: italic;
+  font-size: 120%;
+}
+#master{
+  display: flex;
+  background-color: rgb(236, 209, 164);
+}
+.changing-content {
+  margin-left: 0 auto;
+  align-content: center;
+  width: 60%;
+}
+#footer {
+  background-color: rgb(133, 114, 83);
+  height: 80px;
+  animation-name: nava;
+  animation-duration: 10s;
+  justify-content: flex;
+}
+#footer p{
+  text-align: center;
+  font-size: 100%;
+  margin: auto;
+  padding: 2%;
+}
+.hobbylist li{
+  font-style: italic;
+}
+.Interests li{
+  font-style: italic;
+}
+.Icons img{
+  border-radius: 50%;
+  float: left;
+  height: 35px;
+  width: 35px;
+}
+.Icons li{
+  text-decoration: none;
+}
