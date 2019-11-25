@@ -99,3 +99,7 @@
 .Icons li{
   text-decoration: none;
 }
+.fa {
+  height: 35px;
+  width: 35px;
+}
